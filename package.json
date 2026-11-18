@@ -48,10 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PiggyWu981/dsh-fif-oral.git"
+    "url": "git+https://github.com/Piggywu981/dsh-fif-oral.git"
   },
-  "homepage": "https://github.com/PiggyWu981/dsh-fif-oral#readme",
+  "homepage": "https://github.com/Piggywu981/dsh-fif-oral#readme",
   "bugs": {
-    "url": "https://github.com/PiggyWu981/dsh-fif-oral/issues"
+    "url": "https://github.com/Piggywu981/dsh-fif-oral/issues"
   }
 }
