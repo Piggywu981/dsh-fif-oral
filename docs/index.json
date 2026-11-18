@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "title": {
+    "en": "PiggyWu DSH plugins",
+    "zh": "PiggyWu 的 DSH 插件源"
+  },
+  "description": {
+    "en": "A self-hosted index for the dsh-fif-oral plugin (FiF oral training auto-solver).",
+    "zh": "自建插件源：dsh-fif-oral（FiF 口语 AI 任务自动完成）。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-fif-oral",
+      "title": {
+        "en": "FiF Oral Auto",
+        "zh": "FiF 口语自动完成"
+      },
+      "description": {
+        "en": "Auto-completes FiF oral AI tasks: listening answered from the platform's own answer keys, speaking read out by TTS injected as a fake microphone.",
+        "zh": "自动完成 FiF 口语 AI 任务：听力按平台接口里的标准答案填涂提交，朗读用 TTS 合成后注入浏览器麦克风逐句提交。"
+      },
+      "author": "PiggyWu",
+      "homepage": "https://github.com/Piggywu981/dsh-fif-oral#readme",
+      "repository": {
+        "url": "https://github.com/Piggywu981/dsh-fif-oral"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzBiMjc0MCIvPgogIDxwYXRoIGQ9Ik0yMCAyMmExMCAxMCAwIDAgMSAxMC0xMGg0YTEwIDEwIDAgMCAxIDEwIDEwdjEwYTEyIDEyIDAgMCAxLTI0IDB6IiBmaWxsPSIjNGRhM2ZmIi8+CiAgPHJlY3QgeD0iMzAiIHk9IjMwIiB3aWR0aD0iNCIgaGVpZ2h0PSIxMiIgcng9IjIiIGZpbGw9IiMwYjI3NDAiLz4KICA8cGF0aCBkPSJNMjQgNDJhOCA4IDAgMCAwIDE2IDAiIHN0cm9rZT0iIzllZDBmZiIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI0OSIgY3k9IjE4IiByPSI1IiBmaWxsPSIjZmZiODRkIi8+CiAgPHBhdGggZD0iTTQ3IDE4aDRNNDkgMTZ2NCIgc3Ryb2tlPSIjMGIyNzQwIiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPg==",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794970155,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Piggywu981/dsh-fif-oral",
+            "commit": "4050188cff931acca1ca2c86316211aba4737d8b"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "note": "部署到 GitHub Pages 后，把 raw/页面 URL 加到 DSH → 设置 → 插件市场的索引列表里。commit 必须是真实 40 位 sha；publishTimestamp 为 unix 秒。"
+  }
+}
