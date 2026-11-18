@@ -32,7 +32,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/Piggywu981/dsh-fif-oral",
-            "commit": "4050188cff931acca1ca2c86316211aba4737d8b"
+            "commit": "8b3e89c5746bcf298c500106c2f8ffd7b44b5173"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.1"
