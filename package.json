@@ -1,0 +1,57 @@
+{
+  "name": "dsh-fif-oral",
+  "version": "1.0.0",
+  "description": "DSH 插件：自动完成 FiF 口语训练系统（fifedu.com）的 AI 任务——听力按接口答案一次填对，朗读用 TTS 注入麦克风逐句提交。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "fifedu",
+    "fif",
+    "口语",
+    "tts",
+    "playwright"
+  ],
+  "license": "MIT",
+  "author": "PiggyWu",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "scripts/",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node test/plugin-load.mjs",
+    "test:mic": "node test/mic-test.mjs",
+    "dev": "node test/serve.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.56.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiggyWu981/dsh-fif-oral.git"
+  },
+  "homepage": "https://github.com/PiggyWu981/dsh-fif-oral#readme",
+  "bugs": {
+    "url": "https://github.com/PiggyWu981/dsh-fif-oral/issues"
+  }
+}

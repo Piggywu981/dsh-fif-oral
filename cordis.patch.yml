@@ -1,0 +1,15 @@
+# dsh-fif-oral 的 cordis 加载器 patch：把插件插进 agent 树。
+# 需要改配置时改这里（或在 profile 的 cordis.patch.yml 里用相同 id 覆盖）。
+- insert:
+    - id: fif-oral
+      name: dsh-fif-oral
+      config:
+        browser:
+          channel: auto
+          headless: false
+        tts:
+          engine: edge
+          voice: en-US-AriaNeural
+          rate: "+0%"
+        targetScore: 60
+        autoLogin: false
